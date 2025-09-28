@@ -1,0 +1,6 @@
+numpy==2.3.3
+protobuf==3.1.0
+setuptools==80.9.0
+six==1.17.0
+tensorflow @ https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl#sha256=d0616adfb35b9a915f212d68e9389113e56d41f1131397ebaf14b5b77487733a
+wheel==0.45.1
