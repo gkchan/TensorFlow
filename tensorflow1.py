@@ -8,3 +8,6 @@ vector = tf.constant([1, 2, 3])
 matrix = tf.constant([[2, 3], [4, 5]])
 
 mnist = tf.keras.datasets.mnist
+
+# Keras machine learning model
+model = tf.keras.models.Sequential()
