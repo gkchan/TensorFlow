@@ -10,6 +10,8 @@ matrix = tf.constant([[2, 3], [4, 5]])
 mnist = tf.keras.datasets.mnist
 
 # Keras machine learning model
-model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape=(5, 5)), tf.keras.layers.Dense(5)])
+model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape=(1, 1)), tf.keras.layers.Dense(1)])
 
 model.compile(optimizer="adam", loss="mse")
+
+model.fit([[[1]]], [[[1]]])
