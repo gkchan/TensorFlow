@@ -15,3 +15,5 @@ model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape=(1, 1)),
 model.compile(optimizer="adam", loss="mse")
 
 model.fit([[[1]]], [[[1]]])
+
+model.evaluate([[[2]]], [[[2]]])
