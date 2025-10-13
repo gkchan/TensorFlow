@@ -7,6 +7,8 @@ vector = tf.constant([1, 2, 3])
 
 matrix = tf.constant([[2, 3], [4, 5]])
 
+three_d_tensor = tf.constant([[[1], [3]], [[5], [3]]])
+
 mnist = tf.keras.datasets.mnist
 
 # Keras machine learning model
