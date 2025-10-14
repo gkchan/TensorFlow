@@ -11,6 +11,8 @@ three_d_tensor = tf.constant([[[1], [3]], [[5], [3]]])
 
 mnist = tf.keras.datasets.mnist
 
+fashion_mnist = tf.keras.datasets.fashion_mnist
+
 # Keras machine learning model
 model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape=(1, 1)), tf.keras.layers.Dense(1)])
 
