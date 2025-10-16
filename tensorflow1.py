@@ -17,6 +17,9 @@ fashion_mnist = tf.keras.datasets.fashion_mnist
 x_train = np.array([[0], [1]])
 y_train = np.array([[1], [2]])
 
+x_test = np.array([[3], [8]])
+y_test = np.array([[3], [5]])
+
 # Keras machine learning model
 model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape=(1, 1)), tf.keras.layers.Dense(1)])
 
